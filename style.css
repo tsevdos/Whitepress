@@ -1,0 +1,254 @@
+/*   
+Theme Name: Whitepress
+Theme URI: http://code.google.com/p/whipress/
+Description: An accessible, super clean, minimalistic WP theme.
+Author: John Tsevdos
+Author URI: http://www.tsevdos.com/
+Tags: white, light, two-columns, fixed-width, right-sidebar
+Version: 1.1.7
+
+*/
+
+@import url(css/lib/reset.css);
+@import url(css/lib/typography.css);
+@import url(css/lib/forms.css);
+@import url(css/header.css);
+@import url(css/navigation.css);
+@import url(css/sidebar.css);
+@import url(css/footer.css);
+
+/* =General Styles
+-----------------------------------------------------------------------------*/
+body {
+	background-color: #f6f6f6;
+	text-align: center;
+}
+
+#container {
+	background-color: #fff;
+	margin: 2em auto 0;
+	width: 990px;
+	text-align: left;
+	border: 1px solid #999;
+	border-width: 0 1px;
+	position: relative;
+}
+
+#accessibilitylinks {
+	position: absolute;
+	top: -1000px;
+}
+
+/* =Wordpress must-have classes (http://codex.wordpress.org/CSS)
+-----------------------------------------------------------------------------*/
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	/* optional rounded corners for browsers that support it */
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+/* =Content section
+-----------------------------------------------------------------------------*/
+#content {
+	float: left;
+	width: 630px;
+	margin-top:	1em;
+	color: #333;
+}
+
+#content #posts {
+	padding: 0 0.5em 0.5em;
+	position: relative;
+}
+
+#content .post {
+	margin-bottom: 1.5em;
+	border: 1px solid #999;
+}
+
+#content #posts h2 a:link, #content #posts h2 a:visited, #content #posts h2 a:active {
+	font-size: 1.1em;
+	line-height: 1.2em;
+	margin: 0.2em 0.5em;
+	padding: 0.2em;
+	display: block;
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px solid #333;
+}
+
+#content #posts h2 a:hover {
+	color: #2ea0c6;
+	border-bottom: 1px dashed #2ea0c6;
+}
+
+#content h1 {
+	margin: 1em 0;
+	font-size: 1.4em;
+	line-height: 1.5em;
+}
+
+#content h2 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+#content h3 {
+	margin: 1em 0;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#content h4 {
+	margin: 1em 0;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+#content h5 {
+	margin: 1em 0;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+#content h6 {
+	margin: 0.8em 0;
+	font-size: 0.6em;
+	line-height: 1.5em;
+}
+
+#content ul, #content #posts ol {
+	line-height: 1.5em;
+}
+
+#content ul {
+	padding-left: 2em;
+	list-style-type: none;
+}
+
+#content ul li {
+	padding: 0 0 5px 18px;
+	text-decoration: none;
+	background: transparent url(images/sidebar_list_icon.gif) 3px 6px no-repeat;
+}
+
+#content #posts .post_body {
+	margin: 1em 0;
+	padding: 0 1em;
+}
+
+#content #posts .date_author_comments {
+	margin: 0.5em 18px;
+	text-align: right;
+	font-size: 0.75em;
+}
+
+#content #posts .date_author_comments .comments {
+	text-align: right;
+}
+
+#content #posts .date_author_comments .comments a {
+	padding-right: 15px;
+	background: transparent url(images/comment_icon.gif) right 50% no-repeat;
+}
+
+/* Post and Page only styles. */
+#content #posts .tags {
+	margin: 3em 0.5em 0;
+	padding: 1em;
+	font-size: 0.8em;
+	display: block;
+	text-align: right;
+	border-top: 1px solid #999;
+}
+
+#content #posts .tags img {
+	position: relative;
+	top: 3px; left: -3px;
+}
+
+/* Related Posts. */
+#content #posts #relatedposts h3 {
+	font-size: 1em;
+}
+
+/* 404 Error page only styles. */
+#content #error_page {
+	margin: 0 1em;
+	border: 1px solid #999;
+}
+
+#content #error_page h2, #content #error_page h3 {
+	line-height: 1.2em;
+	margin: 0.2em 0.5em;
+	padding: 0.2em;
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+
+#content #error_page h2 {
+	font-size: 1.4em;
+	border-bottom: 1px solid #2a3548;
+}
+
+#content #error_page h3 {
+	font-size: 1.2em;
+}
+
+#content #error_page p {
+	padding: 1em 1em 0;
+}
+
+/* Archives page only styles. */
+#content #posts h1.archive, #content #posts h1.search {
+	font-size: 1.4em;
+	color: #333;
+	text-align: center;
+}
+
+#content #archives {
+	margin: 0 1em;
+	border: 1px solid #999;	
+}
+
+#content #archives h1 {
+	font-size: 1.4em;
+	color: #333;
+	text-align: center;
+}

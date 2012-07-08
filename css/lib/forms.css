@@ -1,0 +1,158 @@
+/* -------------------------------------------------------------- 
+   * Sets up some default styling for forms
+-------------------------------------------------------------- */
+label { font-weight: bold; }
+
+/* Fieldsets */
+fieldset { padding: 1.4em; margin: 0 0 1.5em 0; border: 1px solid #ddd; }
+legend { padding: 0 .4em; font-weight: bold; font-size: 1.2em; }
+
+/* Textareas */
+textarea { margin: 0.5em 0.5em 0 0; }
+textarea { padding: .4em; }
+
+/* Comments form general
+-------------------------------------------------------------- */
+#content #posts #comments {
+   margin: 2em 1em 1em;
+}
+
+#content #posts p#post_meta {
+   padding: 0 1em 1em;
+   margin: 0;
+   border-bottom: 1px solid #999;
+}
+
+#content #posts #comments h3 {
+   margin: 1em 0;
+   line-height: 1.2em;
+   font-size: 1.2em;
+   color: #333;
+}
+
+#content #posts #comments ol#commentslist {
+   padding: 0;
+   list-style-type: none;
+}
+
+#content #posts #comments ol#commentslist li {
+   margin: 1em 0 0;
+   padding: 10px;
+   font-size: 0.9em;
+   list-style-type: none;
+   border: 1px solid #ccc;
+}
+
+#content #posts #comments ol#commentslist li:hover {
+   border: 1px solid #333;
+}
+
+#content #posts #comments ol#commentslist li.alt {
+   background: #f0f0f0;
+}
+
+#content #posts #comments ol#commentslist li span {
+   display: block;
+}
+
+#content #posts #comments ol#commentslist li .comment_number {
+   color: #ccc;
+   font-size: 2.5em;
+   font-weight: bold;
+   line-height: 1em;
+   float: right;
+}
+
+#content #posts #comments ol#commentslist li.alt .comment_number {
+   color: #fff;
+}
+
+#content #posts #comments ol#commentslist li .author_meta {
+   margin-right: 4em;
+   font-size: 1.1em;
+   font-weight: bold;
+}
+
+#content #posts #comments ol#commentslist li .author_meta img {
+   margin: -10px 5px -10px -10px;
+   padding: 3px;
+   border: 1px solid #ccc;
+   border-width: 0 1px 1px 0;
+}
+
+#content #posts #comments ol#commentslist li .comment_meta {
+   text-align: right;
+}
+
+/* Normal ol list. */
+#content #posts #comments ol#commentslist li ol {
+   line-height: 1.5em;
+   list-style-type: decimal;
+}
+
+#content #posts #comments ol#commentslist li ol li, #content #posts #comments ol#commentslist li ol li:hover {
+   margin: 0;
+   padding: 0;
+   border: none;
+   list-style-type: decimal;
+}
+
+/* Comments form, form elements
+-------------------------------------------------------------- */
+form {
+
+}
+
+form fieldset {
+   padding: 0 1.4em;
+}
+
+form fieldset legend {
+   padding: 0.5em;
+   border: 1px solid #ccc;
+   font-size: 0.8em;
+}
+
+form ol {
+   padding: 0;
+   list-style-type: none;
+}
+
+form ol li {
+   margin: 0.5em 0;
+   list-style-type: none;
+}
+
+form ol li label {
+   display: block;
+}
+
+form ol li label .required {
+   font-weight: normal;
+   font-size: 0.8em;
+}
+
+form ol li input {
+
+}
+
+form ol li label.checkbox {
+   display: inline;
+}
+
+form ol li textarea {
+
+}
+
+/* Subscribe to comments styles */
+form p.subscribe-to-comments {
+   margin: 1em 0;
+}
+
+form p.subscribe-to-comments label {
+   font-weight: normal;
+}
+
+form p.subscribe-to-comments input {
+   float: left;
+}

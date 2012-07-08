@@ -1,0 +1,49 @@
+/* --------------------------------------------------------------
+   Print Styles
+-------------------------------------------------------------- */
+/* Basic Styles */
+body { line-height: 1.5; font-family: Helvetica, Arial, Verdana, sans-serif; color: #000; background: none; font-size: 10pt; letter-spacing: 0.2pt; }
+
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+code { font: .9em Courier, monospace; }
+
+img { float: left; margin: 1.5em 1.5em 1.5em 0; }
+a img { border: none; }
+p img.top { margin-top: 0; }
+
+hr { background: #ccc; color: #ccc; width: 100%; height: 2px; margin: 2em 0; padding: 0; border: none; }
+blockquote { margin: 1.5em; padding: 1em; font-style: italic; font-size: .9em; }
+
+.small  { font-size: .9em; }
+.large  { font-size: 1.1em; }
+.quiet  { color: #999; }
+.hide   { display: none; }
+
+a:link, a:visited { color: #000; background: transparent; font-weight: 700; text-decoration: underline; }
+a:link:after, a:visited:after { content: " (" attr(href) ") "; font-size: 90%; }
+
+/* Specific styles */
+#accessibilitylinks, #navigation, #sidebar, #footer, #comments, #post_meta {
+   display: none;
+}
+
+#header {
+   text-align: right;
+   line-height: 1em;
+}
+
+#header h1 {
+   font-size: 1.2em;
+}
+
+#header h2 {
+   font-size: 1em;
+}
+
+span.tags a:link:after, span.tags a:visited:after, .category a:link:after, .category a:visited:after {
+   content: "";
+}
+
+span.tags img {
+   display: none;
+}

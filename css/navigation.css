@@ -1,0 +1,60 @@
+/* =Navigation section
+-----------------------------------------------------------------------------*/
+#navigation {
+	position: relative;
+	background-color: #f6f6f6;
+}
+
+#navigation ul {
+	margin: 0;
+	padding: 0;
+	min-height: 27px;
+	list-style-type: none;
+	background: transparent url(../images/nav_bg.gif) repeat-x bottom;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+#navigation ul li a:link, #navigation ul li a:visited, #navigation ul li a:active {
+	float: left;
+	display: block;
+	color: #2a3548;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 5px;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	border: 1px solid #999;
+	border-width: 1px 1px 1px 0;
+	background: #f0f4f5;
+	font-variant: small-caps;
+	white-space: nowrap;
+}
+
+#navigation ul li a:hover {
+	background: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+#navigation ul li.current_page_item a {
+	background: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+/* RSS icon*/
+#navigation ul li#rss {
+	float: right;
+	padding: 0 2px 2px 0;
+	position: absolute;
+	top: -1px; right: -1px;
+	background: #f6f6f6;
+}
+
+#navigation ul li#rss a:link, #navigation ul li#rss a:visited, #navigation ul li#rss a:active, #navigation ul li#rss a:hover {
+	float: none;
+	padding: 0;
+	border: 0;
+	width: 25px; height: 25px;
+}

@@ -1,0 +1,10 @@
+/* =IE6 only styles
+-----------------------------------------------------------------------------*/
+#content #posts #comments ol#commentslist li {
+   width: 95%;
+}
+
+/* RSS icon*/
+#navigation ul li#rss {
+   top: 0;
+}

@@ -1,0 +1,142 @@
+/* =Sidebar section
+-----------------------------------------------------------------------------*/
+#sidebar {
+	color: #2a3548;
+	float: right;
+	width: 358px;
+	margin:	1em 0 1.5em;
+}
+
+#sidebar #search {
+
+}
+
+#sidebar #search form input#s {
+	width: 73%;
+}
+
+#sidebar #search form input#searchsubmit {
+	width: 20%;
+}
+
+#sidebar #first_container, #sidebar #second_container, #sidebar #ads_container {
+	margin-top: 1em;
+	position: relative;
+}
+
+#sidebar #first_container, #sidebar #second_container {
+	border-left: 1px solid #999;
+}
+
+#sidebar #first_container_nav, #sidebar #second_container_nav {
+	min-height: 24px;
+	list-style-type: none;
+	background: transparent url(../images/nav_bg.gif) repeat-x bottom;
+}
+
+#sidebar #first_container_nav li, #sidebar #second_container_nav li {
+	display: inline;
+	list-style-type: none;
+}
+
+#sidebar #first_container_nav li a:link, #sidebar #first_container_nav li a:visited,
+#sidebar #second_container_nav li a:link, #sidebar #second_container_nav li a:visited {
+	float: left;
+	display: block;
+	color: #2a3548;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 5px;
+	font: bold 10px Arial, Helvetica, sans-serif;
+	border: 1px solid #999;
+	border-width: 1px 1px 1px 0;
+	background: #f0f4f5;
+	font-variant: small-caps;
+	white-space: nowrap;
+}
+
+#sidebar #first_container_nav li a:hover, #sidebar #first_container_nav li a:active,
+#sidebar #second_container_nav li a:hover, #sidebar #second_container_nav li a:active {
+	background: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+#sidebar #first_container_nav li a.selected, #sidebar #second_container_nav li a.selected {
+	background: #fff;
+	border-bottom: 2px solid #fff;
+}
+
+#sidebar #categories, #sidebar #tagcoud, #sidebar #archives,
+#sidebar #blogroll, #sidebar #lifestream, #sidebar #misc_links,
+#sidebar #ads {
+	padding: 1em;
+	border-bottom: 1px solid #999;
+	text-align: justify;
+	line-height: 1.2em;
+}
+
+/* Paragraphs, lists and H4 titles styles. */
+#sidebar ul, #sidebar ol {
+	margin: 0;
+	padding: 0;
+	line-height: 1.4em;
+}
+
+#sidebar ul {
+	list-style-type: none;
+}
+
+#sidebar h4 {
+	margin: 1em 0;
+	font-size: 1em;
+}
+
+/* Sidbar links. */
+#sidebar a:link { color: #2a3548; text-decoration: underline; }
+#sidebar a:visited { color: #999; text-decoration: none; }
+#sidebar a:hover, a:active { color: #ff6d1e; text-decoration: none; }
+
+#sidebar ul li a:link {
+	padding-left: 18px;
+	text-decoration: none;
+	background: transparent url(../images/sidebar_list_icon.gif) 0 5px no-repeat;
+}
+
+#sidebar ul li a:visited {
+	padding-left: 18px;
+	background: transparent url(../images/checked.gif) 2px 5px no-repeat;
+}
+
+#sidebar ul li a:hover, #sidebar ul li a:active {
+	padding-left: 18px;
+	background: transparent url(../images/sidebar_list_icon.gif) 3px 5px no-repeat;
+}
+
+/* Ads section */
+#sidebar #ads {
+	border: 1px solid #999;
+	border-width: 1px 0 1px 1px;
+	text-align: center;
+}
+
+#sidebar h3 {
+	margin-top: 1em;
+	display: inline;
+	color: #2a3548;
+	letter-spacing: 1px;
+	padding: 5px;
+	font: bold 10px Arial, Helvetica, sans-serif;
+	border: 1px solid #999;
+	border-width: 1px 1px 0;
+	font-variant: small-caps;
+	white-space: nowrap;
+	border-bottom: 2px solid #fff;
+	background: #fff;
+}
+
+#sidebar #ads img {
+	margin-top: 1em;
+	padding: 2px;
+	background: #ccc;
+	border: 1px solid #999;
+}
