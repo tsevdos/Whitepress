@@ -25,5 +25,5 @@ Just upload the "whitepress" folder into your blog’s **themes directory** (loc
 Please keep in mind that I developed this theme back in 2008 so it's a bit out-of-date. I'm not planning to support it anymore, although feel free to fork it and update it (unfortunately I don't have the time to do it).
 
 
-## MIT License (MIT) ##
-Copyright (C) 2008 John Tsevdos
+## License ##
+MIT
